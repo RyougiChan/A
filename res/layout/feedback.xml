@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/problemDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="问题描述"
+        android:textColor="#027dfe"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/problemDescriptionArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/problemDescription"
+        android:layout_marginTop="10dp"
+        android:background="#f5f5f5"
+        android:hint="请在此详尽描述您所遇到的问题或提出建议"
+        android:inputType="textMultiLine"
+        android:minHeight="50dp"
+        android:maxHeight="250dp"
+        android:textSize="16sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/feedbackImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/problemDescriptionArea"
+        android:layout_marginTop="10dp"
+        android:text="反馈附图"
+        android:textColor="#027dfe"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/feedbackImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/feedbackImage"
+        android:layout_marginTop="10dp"
+        android:background="#f5f5f5" >
+
+        <ImageView
+            android:id="@+id/addProblemImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_box_white_48dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/feedbackButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/feedbackImageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_style"
+        android:text="@string/feedbackSubmit"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

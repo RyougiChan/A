@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClubGathering</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="register_original">注册</string>
+    <string name="FP">忘记密码？</string>
+    <string name="action_settings">设置</string>
+    <string name="search">检索</string>
+    <string name="message">通知</string>
+    <string name="menu_open">打开了侧滑菜单</string>
+    <string name="menu_close">关闭了侧滑菜单</string>
+    <string name="register">完成注册</string>
+    <string name="register_user">注册邮箱/手机</string>
+    <string name="register_pswd">注册密码</string>
+    <string name="send_message">发送验证</string>
+    <string name="feedbackSubmit">点击发送</string>
+    
+    <string name="title_section1">关注的社团</string>
+    <string name="title_section2">关注的活动</string>
+    
+    <string name="private_message">私信</string>
+    <string name="private_friends">好友</string>
+    
+    <string name="foucs_club">http://www.w3school.com.cn/</string>
+    <string name="foucs_activity">http://www.cnblogs.com/</string>
+
+</resources>
