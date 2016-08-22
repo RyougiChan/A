@@ -8,6 +8,6 @@ An android application client
     - IDE: Eclipse Mars Release 4.5.0
 ## Announcement
     This project is used to study, and won't be used in commercial way.
-## Application sample demo[Java Runtime Environment(JRE) is needed]
+## Application sample demo
     Full version
     https://github.com/RyougiChan/ClubEliteProject/blob/master/bin/ClubElite.apk
